@@ -1,0 +1,246 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPrmodPB7DPK3gb83icSpMC",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/eduardoschifler-cpu/INTMI_2025/blob/main/28-10-2025\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "fvDKMFg8_Ckl"
+      },
+      "outputs": [],
+      "source": [
+        "x = int(input(\"digite um número\"))\n",
+        "if x > 0 :\n",
+        "print(\"positivo\")\n",
+        "\n",
+        "if x = = 0:\n",
+        "print(\"zero\")\n",
+        "\n",
+        "elif: x == 0:\n",
+        "\n",
+        "else:\n",
+        " print(\"negativo\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#1 Peça um número e informe se ele é maior que 10. Crie um algoritmo em Python para fazer essa verificação.\n",
+        "num1 = int(input(\"Digite um Número\"))\n",
+        "\n",
+        "if num1 > 10:\n",
+        "  print(\"maior que 10\")\n",
+        "  elif num1 == 10\n",
+        "   print(\"numero 10\")\n",
+        "   else;\n",
+        "    print(\"menor que 10\")\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "KlmbtOSLKXCc"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#2 Peça um número inteiro e informe se ele é par. Crie um algoritmo em Python que verifique se o número é divisível por 2.\n",
+        "num1 = int(input(\"Digite um Número\"))\n",
+        "\n",
+        "if num1 %2 == 0\n",
+        " print(\"par\")\n",
+        "\n",
+        "else:\n",
+        " print(\"impar\")"
+      ],
+      "metadata": {
+        "id": "SSqMhDYZNwp4"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#3 Peça um nome e informe se ele contém a letra \"a\". Crie um algoritmo em Python que faça essa verificação.\n",
+        "num = (str(input(\"Digite um Número\")))\n",
+        "if \"a\" in Name:\n",
+        "   print(\"Contém a letra a\")\n",
+        "else:\n",
+        "    print(\"Não Contém a letra a\")"
+      ],
+      "metadata": {
+        "id": "QXTr0ko0Eo--"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#4 Peça um número e informe se ele é múltiplo de 5. Crie um algoritmo em Python que verifique se o número é divisível por 5.\n",
+        "num = (int(input(\"Digite um Número\")))\n",
+        "if num %5 == 0\n",
+        "  print(\"É divisível por 5\")\n",
+        "else:\n",
+        "  print(\"Não é divisível por 5\")"
+      ],
+      "metadata": {
+        "id": "WCOSQm4zFtvy"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#5 Peça a temperatura atual e informe se está quente (acima de 30°C) ou frio (30°C ou menos). Crie um algoritmo em Python para essa verificação.\n",
+        "tem = (int(input(\"Me dê a tempertura atual\")))\n",
+        "if tem >= 30:\n",
+        "  print(\"Quente\")\n",
+        "else:\n",
+        "  print(\"Frio\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hBjnglm2FxYJ",
+        "outputId": "4f3ec923-e018-4d25-aab1-8058daea6a70"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Me dê a tempertura atual 30\n",
+            "Quente\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "#6 Peça ao usuário para digitar \"S\" para continuar ou \"N\" para sair e informe a ação correspondente. Crie um algoritmo em Python que faça essa validação e exiba a mensagem correta.\n",
+        "opção = (str(input(\"Digite S para continuar ou N para sair\")))\n",
+        " if = opção == \"S\"\n",
+        "  print(\"Ação continuar\")\n",
+        "else:\n",
+        "  print(\"Ação para sair\")\n"
+      ],
+      "metadata": {
+        "id": "Ysi-77LUFxeQ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#7 Peça um número e informe se ele é negativo, zero ou positivo. Crie um algoritmo em Python para classificar o número.\n",
+        "x = int(input(\"Digite o número atual\"))\n",
+        "if x>0:\n",
+        " print(\"Positivo\")\n",
+        "elif x == 0\n",
+        " print(\"Zero\")\n",
+        "else:\n",
+        "  print(\"Negativo\")"
+      ],
+      "metadata": {
+        "id": "P7Y4FcjYFxg4"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#8 Peça um número de 1 a 7 e informe o dia da semana correspondente. Crie um algoritmo em Python que associe o número ao dia correto.\n",
+        "numero_dia=int(input(\"Digite um número de 1 a 7\"))\n",
+        "if numero ==1:\n",
+        " print(\"domingo\")\n",
+        " elif numero ==2\n",
+        "  print(\"Segunda\")\n",
+        "  elif numero ==3\n",
+        "   print(\"Terça\")\n",
+        "  elif numero ==4\n",
+        "   print(\"Quarta\")\n",
+        "  elif numero ==5]\n",
+        "   print(\"Quinta\")\n",
+        "   elif numero == 6\n",
+        "   print(\"Sexta\")\n",
+        "   elif numer0 ==7\n",
+        "   print(\"Sábado\")"
+      ],
+      "metadata": {
+        "id": "Hdi4pr3-GA4r"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#9 Peça um ano e informe se ele é bissexto. Crie um algoritmo em Python que verifique se o ano é divisível por 4 e não por 100, exceto se também for divisível por 400.\n",
+        "ano = (int(input\"Digite um ano\"))\n",
+        " if (ano % 4 == 0 and % 100 : =0) or (ano % 400 == 0)\n",
+        "  print(\"O ano (ano) é bissexto\")\n",
+        "else:\n",
+        "  print(\"O ano (ano) não é bissexto\")"
+      ],
+      "metadata": {
+        "id": "AHxtB4RlFxrQ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#10 Peça a quantidade de horas trabalhadas e o valor por hora. Se trabalhou até 40 horas, calcule o salário normalmente (horas × valor por hora). Se trabalhou mais de 40 horas, as horas extras devem ter um adicional de 50% (horas extras × valor por hora × 1.5). Crie um algoritmo em Python que realize esse cálculo corretamente.\n",
+        "horas_trabalhadas = float(input(\"Digite a hquantidade de horas trabalhadas\"))\n",
+        "valor_por_hora = float(input(\"Digite o valor por hora\"))\n",
+        "\n",
+        "if horas_trabalhadas <= 40:\n",
+        "  salário = horas_trabalhadas * valor_por_hora\n",
+        "else:\n",
+        "  salário_base = 40 * valor_por_horahora\n",
+        ""
+      ],
+      "metadata": {
+        "id": "PFsrPYsYGEPq"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
